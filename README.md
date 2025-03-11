@@ -1,7 +1,7 @@
 # Assignment_Week_8_Mena
 
-## 📌 Overview
-This is a **Streamlit-based eye detection app** that uses OpenCV's deep learning-based face and eye detection models. The app allows users to upload an image, detects faces, and highlights the eyes with enhanced functionality.
+## 📌 For Professor Lee : Quick Glance General Notes
+-  I used the sample image provided in your repository (2 grandparents with 2 grandchildren), however, they are wearing prescription eyeglasses, and the model is not very good at detecting it.  We made adjustments (using Cursor) to try and fix this.  We tried several adjustments, such as histogram equalization, Haar cascade, and CLAHE.  In the end, we got it to work a bit, but it's not 100%.   
 
 ## ✨ Features & Improvements
 - 🖥 **UI Enhancements**:
@@ -11,17 +11,5 @@ This is a **Streamlit-based eye detection app** that uses OpenCV's deep learning
 
 - 👀 **Enhanced Functionality**:
   - ✅ **Eye Detection** – The app now detects eyes along with faces.
-
-## 📸 How to Use
-1. **Upload an Image** via the file uploader.
-2. The app will process the image and **detect faces and eyes**.
-3. The results, including **bounding boxes, confidence scores, and processing time**, will be displayed.
-
-## 🔧 Installation & Setup
-### Prerequisites
-Ensure you have **Python 3.x** installed, then install the required dependencies:
-```bash
-pip install streamlit opencv-python numpy pillow
-
-
+ 
 
